@@ -1,0 +1,1 @@
+﻿Zoo = Ember.Application.create();
