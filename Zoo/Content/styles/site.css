@@ -1,0 +1,12 @@
+﻿.application{
+    background-color:green;
+}
+.animals, .planetarium{
+    background-color:yellow;
+}
+.animals-index, .stars-index, .stars-edit{
+    background-color:pink;
+}
+.animal, .stars{
+    background-color:red;
+}

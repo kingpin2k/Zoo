@@ -1,0 +1,10 @@
+﻿<div class="animals-index">
+    <h5>Animals Index route (put into the animals outlet when we hit the root of animals, if we want to do this)</h5>
+    <ul>
+        {{#each animal in controller}}
+        <li>
+            {{#link-to 'animal' animal}}Learn more about the {{animal.name}}{{/link-to}}
+        </li>
+        {{/each}}
+    </ul>
+</div>

@@ -1,0 +1,34 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>My First Ember App</title>
+
+    <script type="text/javascript">
+        var DebugMode = '@ViewBag.debug' === 'True';
+    </script>
+
+    @Scripts.Render("~/bundles/thirdparty")
+    @Scripts.Render("~/bundles/app")
+    @Styles.Render("~/bundles/css")
+    @if (ViewBag.debug)
+    {
+        @HandlebarsHelper.RawTemplateInjector.InjectRawTemplates("~/Scripts/Zoo/Templates",
+                                                          new[] { "*.hbs" });
+    }
+    else
+    {
+        @Scripts.Render("~/bundles/templates")
+    }
+</head>
+<body>
+    <div>
+    
+    </div>
+</body>
+</html>
