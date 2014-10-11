@@ -160,6 +160,7 @@
     <Content Include="Scripts\Zoo\Adapters\serializer.js" />
     <Content Include="Scripts\Zoo\Adapters\adapter.js" />
     <Content Include="Scripts\Zoo\Components\starfield-component.js" />
+    <Content Include="Scripts\Zoo\Controllers\animal.js" />
     <Content Include="Scripts\Zoo\Models\animal.js" />
     <Content Include="Scripts\Zoo\router.js" />
     <Content Include="Scripts\Zoo\application.js" />
@@ -190,7 +191,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
-    <Folder Include="Scripts\Zoo\Controllers\" />
     <Folder Include="Scripts\Zoo\Mixins\" />
     <Folder Include="Scripts\Zoo\Util\" />
     <Folder Include="Scripts\Zoo\Views\" />
